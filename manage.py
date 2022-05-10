@@ -19,6 +19,8 @@ connection = MySQLdb.connect(
     "ca": "/etc/ssl/cert.pem"
   }
 )
+from replit import db
+
 
 
 def main():
